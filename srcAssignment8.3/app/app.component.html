@@ -1,0 +1,14 @@
+<h1 [class] = "'style'">Enter Here : </h1>
+
+
+
+<div [class] = "'style'">
+    <textarea  placeholder="Tell me about yourself" type = "text" maxlength = "200" [(ngModel)]= "textEntered" (input) = "checkCharacterLimit()"></textarea>
+</div>
+<h2 [class] = "'style'">{{"The length of the string entered is : " + textEntered.length}}</h2>
+
+
+
+<h3 [class] = "'style'" *ngIf = "exceeded">Character Limit Exceeded!</h3>
+
+<router-outlet></router-outlet>
