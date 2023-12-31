@@ -1,0 +1,21 @@
+<div [style.text-align] = "'center'">
+   
+    <h1>Enter a number you want to check :</h1>
+
+    <input [(ngModel)] = "inputNumber" type="number" placeholder="Enter here">
+
+    <div>
+        <h3>{{inputNumber | marvellousChk : "Even" }}</h3>
+
+        <h3>{{inputNumber | marvellousChk : "Perfect" }}</h3>
+
+        <h3>{{inputNumber | marvellousChk : "odd"  }}</h3>
+
+        <h3>{{inputNumber | marvellousChk : "prime" }}</h3>
+
+        <h3>{{inputNumber | marvellousChk : "Whole" }}</h3>
+
+
+    </div>
+
+</div>
