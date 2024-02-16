@@ -1,0 +1,56 @@
+.color
+{
+    color: palevioletred;
+}
+
+h1
+{
+    text-align: center;
+    display: flexbox;
+}
+
+
+ .heading
+ {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: center;
+ }
+
+ h2
+ {
+    font-weight: normal;
+ }
+
+ .heading2
+ {
+    text-align: center;
+    margin-top: 30px;
+ }
+
+
+ .btn 
+ {
+    margin-top: 30px;
+    
+ }
+
+ form
+ {
+    display: grid;
+    flex-direction: column;
+    justify-content: center;
+
+ }
+
+ .form-group 
+ {
+    margin-top: 30px;
+ }
+
+ 
+
+
+
+
